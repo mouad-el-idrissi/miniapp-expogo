@@ -1,12 +1,11 @@
-# 🍽️ TheMealDB — Mini Application Mobile (React Native / Expo)
+ TheMealDB — Mini Application Mobile (React Native / Expo)
 
 Mini application mobile complète développée avec **React Native (Expo)**, consommant l'API publique **[TheMealDB](https://www.themealdb.com/api.php)**.
 
-Ce projet répond à l'énoncé : plusieurs écrans avec navigation, consommation d'une API REST, gestion d'état et interactions, interface propre et moderne.
 
 ---
 
-## ✨ Fonctionnalités
+## Fonctionnalités
 
 - **Catégories** — liste de toutes les catégories de repas (`/categories.php`), en grille à 2 colonnes, avec *pull-to-refresh*.
 - **Repas par catégorie** — liste filtrée des plats d'une catégorie (`/filter.php?c=`).
@@ -16,7 +15,7 @@ Ce projet répond à l'énoncé : plusieurs écrans avec navigation, consommatio
 
 ---
 
-## 🧭 Navigation
+##  Navigation
 
 Deux onglets (bottom tabs), chacun contenant sa propre pile (stack) :
 
@@ -30,30 +29,6 @@ Tab "Recherche"   →  Search      →  MealDetail
 
 ---
 
-## 🗂️ Structure du projet
-
-```
-themealdb-app/
-├── App.js                       # Point d'entrée + navigation
-├── app.json                     # Configuration Expo
-├── babel.config.js
-├── package.json
-└── src/
-    ├── api/
-    │   └── mealApi.js           # Client REST TheMealDB
-    ├── components/
-    │   ├── CategoryCard.js
-    │   ├── MealCard.js
-    │   ├── Loader.js
-    │   ├── ErrorView.js
-    │   └── EmptyState.js
-    ├── screens/
-    │   ├── CategoriesScreen.js
-    │   ├── MealsByCategoryScreen.js
-    │   ├── SearchScreen.js
-    │   └── MealDetailScreen.js
-    └── theme/
-        └── theme.js             # Couleurs, espacements, ombres
 ```
 
 ---
@@ -89,6 +64,5 @@ Scanne ensuite le QR code avec **Expo Go**, ou appuie sur `a` (Android) / `i` (i
 
 ---
 
-## 👤 Auteur
 
-Projet réalisé dans le cadre d'un module de développement mobile.
+Projet réalisé dans le cadre d'un module de développement web et mobile.
